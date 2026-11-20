@@ -74,6 +74,12 @@
   .feat h3{font-size:16px;margin-bottom:4px}.feat p{color:var(--muted);font-size:13.5px}
   .cta{border:1px solid rgba(214,255,63,.3);background:rgba(214,255,63,.05);border-radius:24px;padding:48px 24px;text-align:center}
   .cta h2{margin-bottom:12px}.cta p{color:var(--muted);max-width:460px;margin:0 auto 28px}
+  .visit{display:grid;gap:32px;align-items:start}
+  @media(min-width:800px){.visit{grid-template-columns:1fr 1fr}}
+  .visit .lead{margin-bottom:20px}
+  .tips{list-style:none;display:grid;gap:12px}
+  .tips li{display:flex;gap:12px;border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:var(--bg2);font-size:14px;color:#C7CCD3}
+  .tips li b{color:var(--text)}
   footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:12.5px}
   footer .wrap{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
   footer .social{display:flex;gap:16px;width:100%}
@@ -139,6 +145,25 @@
     <div class="feat" style="grid-column:1/-1"><div class="ico">👥</div><div><h3>Communities</h3><p>Run clubs, office teams and friends can host their runs here and welcome new faces. Join a group, chat before you go and become part of the running community in your town.</p></div></div>
   </div>
 </section></div>
+
+<div class="band" id="visiting">
+  <div class="wrap"><section>
+    <h2>Visiting Kenya?</h2>
+    <div class="visit">
+      <div>
+        <p class="lead">New in town and want to run? Skip the guesswork. Find a run near where you're staying, see the pace and the meeting place up front, and join in one tap. No account needed to look around.</p>
+        <p class="lead">Running with locals is one of the best ways to see a city, from morning loops in Nairobi to weekend community runs.</p>
+        <a class="btn primary" href="https://app.twenderun.com/">Find a run near you</a>
+      </div>
+      <ul class="tips">
+        <li><span>📍</span><span><b>Public meeting points.</b> Every run starts somewhere open and easy to find, with a map link.</span></li>
+        <li><span>💬</span><span><b>Ask first.</b> Every run has a group chat, so you can ask about the route, pace and what to bring.</span></li>
+        <li><span>👥</span><span><b>Join a community run.</b> Groups welcome new faces, and you arrive to a crowd, not a stranger.</span></li>
+        <li><span>🛡️</span><span><b>Stay safe.</b> Tell someone where you're going, stay in the group, and leave the run if anything feels off.</span></li>
+      </ul>
+    </div>
+  </section></div>
+</div>
 
 <div class="wrap" style="padding-bottom:80px">
   <div class="cta">
